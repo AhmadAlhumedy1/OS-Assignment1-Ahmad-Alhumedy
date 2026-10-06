@@ -29,10 +29,10 @@
 
 | Field | Your Answer |
 |-------|-------------|
-| **Full Name** | [Write your full name here] |
-| **Student ID** | [Write your student ID here] |
-| **University Email** | [yourid]@std.psau.edu.sa |
-| **GitHub Username** | [your-github-username] |
+| **Full Name** | [Ahmad Albraa Alhumedy] |
+| **Student ID** | [446052673] |
+| **University Email** | [446052673@std.psau.edu.sa |
+| **GitHub Username** | [AhmadAlhumedy1] |
 | **Repository Link** | [Paste your repository link here] |
  
 ---
@@ -129,6 +129,7 @@
 ## Your Development Log
 
 Entry 1 - [OCTOBER 6, 2026, 2:27 PM]
+
 What I did: Repo setup and first commit.
 
 Details: I created my fork of the starter code on GitHub, renamed it as required, and made sure it's set to public. Then I opened SchedulerSimulation.java and changed the studentID variable on line 150 to my actual ID (446052673). I just made my first commit to save this setup.
@@ -140,16 +141,23 @@ Solution: I added the naming format directly from the instructions to avoid any 
 Time spent: 15 minutes
 ---
 
-### Entry 2 - [Date and Time]
-**What I did**:
+### Entry 2 - [OCTOBER 6, 2026, ]
 
-**Details**:
+**What I did**: Added the random priority feature (Feature 1).
 
-**Challenges**:
 
-**Solution**:
+**Details**: 
+- Added an "int priority" variable to the "Process" class and updated its constructor.
+- Used the random generator in "main" to create a priority between 1 and 10.
+- Updated the print statement in "addProcessToQueue" to show the priority on the screen.
+- Tested the code in NetBeans && VS CODE to make sure the queue order didn't change .
+- Pushed my second commit to GitHub.
 
-**Time spent**:
+**Challenges**:  I was worried about messing up the colored terminal output when adding the new text.
+
+**Solution**:  I just looked at how the burst time was printed and copied the same format, but changed the color to MAGENTA.
+
+**Time spent**: 50 minutes
 
 ---
 
