@@ -141,7 +141,7 @@ Solution: I added the naming format directly from the instructions to avoid any 
 Time spent: 15 minutes
 ---
 
-### Entry 2 - [OCTOBER 6, 2026, ]
+### Entry 2 - [OCTOBER 6, 2026 , 3:15 PM ]
 
 **What I did**: Added the random priority feature (Feature 1).
 
@@ -161,16 +161,18 @@ Time spent: 15 minutes
 
 ---
 
-### Entry 3 - [Date and Time]
-**What I did**:
+### Entry 3 - [OCTOBER 6, 2026, 3:50 PM ]
+
+**What I did**: Implemented Feature 2 (Context Switch Counter).
 
 **Details**:
+Added a static counter variable "contextSwitchCounter" to track when a process starts running in the scheduler loop, and printed the total at the end of the simulation.
 
-**Challenges**:
+**Challenges**: Finding the exact loop iteration.
 
-**Solution**:
+**Solution**: Placed the increment  after "processQueue.poll()" inside the main scheduling loop.
 
-**Time spent**:
+**Time spent**: 40 minutes
 
 ---
 
