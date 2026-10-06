@@ -109,33 +109,35 @@
 
 ## Example Entry (do not copy it, write your own)
 
-### Entry 1 - [OCTOBER 6, 2026, 2:27 PM]
-**What I did**: Repo setup and first commit.
+### Entry 1 - [September 22, 2026, 2:30 PM]
+**What I did**: Forked the repository and set up my student ID
 
 **Details**:
-I created my fork of the starter code on GitHub, renamed it as required, and made sure it's set to public. Then I opened SchedulerSimulation.java and changed the studentID variable on line 150 to my actual ID (446052673). I just made my first commit to save this setup.
+- Created GitHub account with university email
+- Forked the starter repository and renamed it
+- Changed student ID on line 150 to my actual ID (441234567)
+- Compiled and ran the program successfully
+- Committed and pushed: `Set my student ID: 441234567`
 
-**Challenges**: Just making sure I typed the repository name exactly as required.
+**Challenges**: Had to install JDK first because `javac` wasn't recognized
 
-**Solution**: I added the naming format directly from the instructions to avoid any typos.
+**Solution**: Downloaded JDK 17 and set the PATH variable
 
-**Time spent**: 15 minutes
-
+**Time spent**: 30 minutes
 ---
 
 ## Your Development Log
 
-### Entry 1 - [Date and Time]
-**What I did**:
+Entry 1 - [OCTOBER 6, 2026, 2:27 PM]
+What I did: Repo setup and first commit.
 
-**Details**:
+Details: I created my fork of the starter code on GitHub, renamed it as required, and made sure it's set to public. Then I opened SchedulerSimulation.java and changed the studentID variable on line 150 to my actual ID (446052673). I just made my first commit to save this setup.
 
-**Challenges**:
+Challenges: Just making sure I typed the repository name exactly as required.
 
-**Solution**:
+Solution: I added the naming format directly from the instructions to avoid any typos.
 
-**Time spent**:
-
+Time spent: 15 minutes
 ---
 
 ### Entry 2 - [Date and Time]
