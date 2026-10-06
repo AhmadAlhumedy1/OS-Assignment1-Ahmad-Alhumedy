@@ -176,16 +176,17 @@ Added a static counter variable "contextSwitchCounter" to track when a process s
 
 ---
 
-### Entry 4 - [Date and Time]
-**What I did**:
+### Entry 4 - [OCTOBER 6, 2026, 4:47 PM]
 
-**Details**:
+**What I did**:Implemented Feature 3 (Waiting Time Tracking and Summary Table).
 
-**Challenges**:
+**Details**: Added entry time tracking and waiting time calculation logic to the Process class using ms timestamps. Designed and printed a  performance  table at the end .
 
-**Solution**:
+**Challenges**: t first, I got confused about where exactly to calculate the waiting time without messing up the existing queue logic.
 
-**Time spent**:
+**Solution**: I just added a simple timestamp when the process enters the queue (`setEntryTime`), and subtracted it right when it pops out in the main loop to accumulate the total wait time.
+
+**Time spent**: 40 minutes
 
 ---
 
