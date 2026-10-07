@@ -337,15 +337,15 @@ This output shows that P2 ran for the 2000ms limit, but it still had 1434ms left
 
 **Your Answer:** *(3-5 sentences overall; one short explanation per state)*
 
-1. **New**: [When is P1 in the New state?]
+1. **New**: P1 is in this state right after we create it using the new Process() command.
 
-2. **Runnable**: [When does P1 become Runnable?]
+2. **Runnable**: P1 becomes Runnable when its thread is put inside the ready queue using processQueue.add(thread).
 
-3. **Running**: [When is P1 Running?]
+3. **Running**:P1 starts running when the main loop calls currentThread.start().
 
-4. **Waiting**: [When and why would a thread be Waiting?]
+4. **Waiting**:The main thread waits using currentThread.join(), and the process thread pauses during Thread.sleep().
 
-5. **Terminated**: [When is P1 Terminated?]
+5. **Terminated**: P1 reaches this state when it finishes all its work and has no time left.
 
 ## Question 4: Real-World Applications
 
