@@ -302,7 +302,7 @@ We can apply multithreading concepts in real-world applications to make them run
 
 **Your Answer:** *(3-5 sentences)*
 
-[Write your answer here.]
+A process is a heavy execution unit that has its own independent memory space, making it slower to create and communicate. In contrast, a thread is much lighter, faster, and can share memory with other threads to improve performance and multitasking. In our assignment's SchedulerSimulation.java file, the class named Process is just a simulated process, and we ran it using real Java threads by using the new Thread(process) line inside addProcessToQueue(). We used threads here instead of separate OS processes because they allow efficient context switching and lightweight execution for our Round-Robin simulation.
 
 ## Question 2: Ready Queue Behavior
 
