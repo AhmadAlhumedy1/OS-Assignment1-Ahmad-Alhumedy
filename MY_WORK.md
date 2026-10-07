@@ -270,7 +270,7 @@ I used System.out.println statements to track every change in the code output. F
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+We can apply multithreading concepts in real-world applications to make them run much better and faster. For example, in a music app like Spotify, one thread can play the song in the background, and another thread lets us browse playlists or search for new songs without any freezing. Another example is in web browsers, where one thread downloads a large file while a different thread lets us open tabs and read pages. Without multithreading, the app would stop and wait for the first task to finish completely. This helps us use computer resources in a smart way to handle multiple tasks at the exact same time.
 
 ### Optional: What would you like to learn more about?
 
