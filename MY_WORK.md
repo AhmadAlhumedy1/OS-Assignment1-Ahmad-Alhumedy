@@ -262,7 +262,7 @@ In my opinion, understanding the code was the hardest part because it was a bit 
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+I used System.out.println statements to track every change in the code output. For every feature I added, I printed its values to check for correct calculation functions. I also used some tools in VS Code to understand the whole code structure. I read the README file after each feature, and that helped me make an outline to do each step correctly. For extra help, I used some websites and YouTube tutorials. For debugging, I ran the code in the IDE to check each function, and I got the correct output after tracing it step by step.
 
 ## Question 4: How can you apply multithreading concepts in real-world applications?
 
