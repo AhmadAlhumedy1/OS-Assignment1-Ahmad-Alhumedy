@@ -314,15 +314,20 @@ A process is a heavy execution unit that has its own independent memory space, m
 
 **Your Answer:** *(3-5 sentences)*
 
-[Write your answer here.]
+When a process takes longer than the time quantum, it stops and goes back to the ready queue to wait for its next turn. In my program run, process P2 had a burst time of 3434ms while the time quantum was 2000ms. Because of this, P2 was put back into the ready queue one time before it finished its remaining 1434ms in the next round. Re-queueing is very important for fairness because it makes sure that no single long process takes the CPU all the time, allowing every process to get a fair chance.
 
 Example from my output:
 ```
-[Paste a relevant snippet from your program output here showing a process being re-queued]
+▶ P2 executing quantum [2000ms] 
+  ⏸ P2 completed quantum 2000ms │ Overall progress: [████████████████████] 58%
+     Remaining time: 1434ms
+  ↻ P2 yields CPU for context switch
+
+  ➕ P2 added to ready queue │ Burst time: 3434ms │ Priority: 7
 ```
 
 **Explanation of example:**
-[Explain what is happening in the output snippet you pasted.]
+This output shows that P2 ran for the 2000ms limit, but it still had 1434ms left to finish. The scheduler stopped it and printed that P2 was added back to the ready queue so other processes could run. This matches how Round-Robin works by sharing time equally among all processes.
 
 ## Question 3: Thread Lifecycle
 
