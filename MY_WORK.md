@@ -246,7 +246,7 @@ Added a static counter variable "contextSwitchCounter" to track when a process s
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+Before this assignment, I didn't realize how much work goes into making a CPU run multiple things at once. I learned that we first use the Runnable interface to write the actual code for a process, but we must call Thread.start() to run it in the background. The Thread.join() method was really interesting because it forces our main program to pause and wait for a specific thread to finish its time quantum. We also used Thread.sleep() to pause the threads intentionally, which helped us simulate actual CPU processing time so we could see the output step by step. Honestly, what surprised me the most was seeing the final result in the terminal. By combining all these methods, the fast context switching makes it look like the CPU is running all programs at the exact same time even though they are just taking turns.
 
 ## Question 2: What was the most challenging part of this assignment?
 
