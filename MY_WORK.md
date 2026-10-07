@@ -184,7 +184,7 @@ Added a static counter variable "contextSwitchCounter" to track when a process s
 
 **Challenges**: t first, I got confused about where exactly to calculate the waiting time without messing up the existing queue logic.
 
-**Solution**: I just added a simple timestamp when the process enters the queue (`setEntryTime`), and subtracted it right when it pops out in the main loop to accumulate the total wait time.
+**Solution**: I just added a simple timestamp when the process enters the queue (markEnteredReadyQueue()), and subtracted it right when it pops out in the main loop to accumulate the total wait time.
 
 **Time spent**: 40 minutes
 
