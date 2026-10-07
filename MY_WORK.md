@@ -355,21 +355,21 @@ This output shows that P2 ran for the 2000ms limit, but it still had 1434ms left
 
 **Your Answer:** *(3-5 sentences per example)*
 
-### Example 1 (operating-system level): [Name of scenario]
+### Example 1 (operating-system level): [Desktop Operating System Scheduler]
 
 **Description**:
-[Describe the real-world scenario.]
+When I use my laptop, I usually have a web browser and a code editor open at the same time. In this case, the "process" is the open application. The "time quantum" is the small slice of CPU time each app gets. The "context switch" is when the OS stops one app for a moment to run the other.
 
 **Why Round-Robin works well here**:
-[Fairness, responsiveness, predictability?]
+It is great for responsiveness. It makes sure that both applications run smoothly without freezing, giving every app a fair share of the CPU so it feels like they are running at the exact same time.
 
-### Example 2: [Name of application/scenario]
+### Example 2: [Web Server Handling User Requests]
 
 **Description**:
-[Describe the real-world scenario or application.]
+A web server gets requests from many different users who want to load a webpage at the same time. Here, the "process" is the user's web request. The "time quantum" is the short time the server spends sending data to one user. The "context switch" is when the server moves to help the next user.
 
 **Why Round-Robin works well here**:
-[Fairness, responsiveness, predictability?]
+It guarantees fairness. If one user is downloading a very large file, Round-Robin stops them from blocking the server. Everyone gets a piece of their data in turn, so no one is stuck waiting forever.
 
 ## Summary
 
