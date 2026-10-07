@@ -254,7 +254,7 @@ Before this assignment, I didn't realize how much work goes into making a CPU ru
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+In my opinion, understanding the code was the hardest part because it was a bit long code. For the first time, it was hard to understand some of the functions and features. However, I used some tools and websites such as YouTube and other projects on GitHub to understand it better. It was also hard to understand each step of the output of the code and to follow every single step. Fortunately, some features in VS Code helped me a lot during this process. The code was a bit hard, but it was very interesting, and I think it will help me a lot to understand many things in our OS subject.
 
 ## Question 3: How did you overcome the challenges you faced?
 
