@@ -31,9 +31,9 @@
 |-------|-------------|
 | **Full Name** | [Ahmad Albraa Alhumedy] |
 | **Student ID** | [446052673] |
-| **University Email** | [446052673@std.psau.edu.sa |
+| **University Email** | [446052673@std.psau.edu.sa] |
 | **GitHub Username** | [AhmadAlhumedy1] |
-| **Repository Link** | [Paste your repository link here] |
+| **Repository Link** | [https://github.com/AhmadAlhumedy1/OS-Assignment1-Ahmad-Alhumedy] |
  
 ---
 
@@ -190,16 +190,17 @@ Added a static counter variable "contextSwitchCounter" to track when a process s
 
 ---
 
-### Entry 5 - [Date and Time]
-**What I did**:
+### Entry 5 - [OCTOBER 7 , 2026, 8:25 PM ]
 
-**Details**:
+**What I did**: Testing, Debugging, and Finalizing Output
 
-**Challenges**:
+**Details**: I compiled and ran SchedulerSimulation.java multiple times to verify that the context switches, waiting time, and turnaround time formulas are calculating correctly.
 
-**Solution**:
+**Challenges**: At first, the waiting time for processes that entered the CPU multiple times was wrong. Tracking the exact time each process spent waiting in the queue between its bursts was getting complicated and causing calculation errors.
 
-**Time spent**:
+**Solution**: I simplified the logic by using the standard OS formulas at the end of the simulation: Turnaround Time = Completion Time - Arrival Time (0) and Waiting Time = Turnaround Time - Burst Time. This mathematical approach fixed the bug instantly and provided 100% accurate results in the summary table.
+
+**Time spent**: 30 minutes
 
 ---
 
