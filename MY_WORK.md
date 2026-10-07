@@ -221,13 +221,13 @@ Added a static counter variable "contextSwitchCounter" to track when a process s
 
 > 💡 **TIP:** Fill this in **last**, after all entries are written.
 
-**Total time spent on assignment**: [X hours]
+**Total time spent on assignment**: [9 hours]
 
-**Most challenging part**:
+**Most challenging part**:Implementing and debugging the Java simulation logic and calculations.
 
-**Most interesting learning**:
+**Most interesting learning**: nderstanding multithreading concepts and utilizing sleep functions to simulate realistic CPU scheduling behavior.
 
-**What I would do differently next time**:
+**What I would do differently next time**: Consistently use GitHub commits throughout the development process to track progress and structure projects more effectively.
 
 ---
 
@@ -375,13 +375,13 @@ It guarantees fairness. If one user is downloading a very large file, Round-Robi
 ## Summary
 
 **Key concepts I understood through these questions:**
-1.
-2.
-3.
+1. Multithreading concepts.
+2. Calculating Burst, Waiting, and Turnaround times.
+3. Round-Robin scheduling
 
 **Concepts I need to study more:**
-1.
-2.
+1. Context switching
+2. Priority queues
 
 ---
 
